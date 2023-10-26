@@ -1,0 +1,73 @@
+
+.App{
+  text-align: end;
+}
+
+.logo{
+  width: 100px;
+  margin: 10px;
+}
+.bar{
+  background-color: rgba(56, 39, 155, 0.986);
+  width: 100%;
+}
+
+.tarjeta{
+  width: 50%;
+  margin: 150px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid rgba(35, 33, 33, 0.39);
+  border-radius: 25px;
+}
+
+.block{
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.producto:hover{
+  filter: drop-shadow(0 0 12px rgba(86, 80, 74, 0.804));
+}
+
+.producto{
+  width: 450px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.imagen img{
+  width: 150px;
+}
+
+.splide img{
+  width: 100%;
+}
+
+.negrita{
+  font-weight: bold;
+}
+
+.block-2{
+  margin: 150px auto;
+  width: 600px;
+  padding: 20px;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.funko img{
+  width: 350px;
+  display: flex;
+  flex: start;
+}
+
+.info_funko{
+  width: 200px;
+}
